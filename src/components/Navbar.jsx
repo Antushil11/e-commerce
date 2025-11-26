@@ -6,7 +6,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-green shadow-md max-w-7xl mx-auto ">
+    <div className="bg-black sticky  top-0 z-50 ">
+      <nav className=" bg-black  shadow-md max-w-7xl mx-auto ">
       <div className=" flex gap-4 items-center justify-between">
         <div>
           <Image className="w-2/14" src={logo} alt="logo"></Image>
@@ -18,8 +19,8 @@ export default function Navbar() {
           <Link href="/products" className="hover:text-blue-500">
             Products
           </Link>
-          <Link href="/services" className="hover:text-blue-500">
-            Services
+          <Link href="/about" className="hover:text-blue-500">
+            About
           </Link>
           <Link href="/contact" className="hover:text-blue-500">
             Contact
@@ -39,5 +40,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
