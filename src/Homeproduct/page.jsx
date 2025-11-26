@@ -55,12 +55,12 @@ const HomeProductPage = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <div key={product.id} className="bg-gray-600 rounded-lg shadow-md overflow-hidden flex flex-col">
             <img src={product.image} alt={product.name} className="w-full h-48 object-cover" />
             <div className="p-4 flex flex-col flex-grow">
               <h2 className="text-xl font-semibold mb-1">{product.name}</h2>
-              <p className="text-gray-600 mb-2 line-clamp-2">{product.description}</p>
-              <p className="font-bold mb-4">${product.price}</p>
+              <p className="text-gray-600 mb-2 line-clamp-2 text-white">{product.description}</p>
+              <p className="font-bold mb-4 text-white">${product.price}</p>
               <button
                 onClick={() => handleView(product.id)}
                 className="mt-auto bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"

@@ -14,7 +14,7 @@ const AboutPage = () => {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div className="bg-[#F8F1E8] p-6 rounded-lg shadow-md flex flex-col items-center">
+        <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
             src="/images/team1.jpg"
             alt="Team Member 1"
@@ -24,7 +24,7 @@ const AboutPage = () => {
           <p className="text-gray-600 text-center">Founder & MERN Stack Developer</p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+        <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
             src="/images/team2.jpg"
             alt="Team Member 2"
@@ -34,7 +34,7 @@ const AboutPage = () => {
           <p className="text-gray-600 text-center">UI/UX Designer</p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+        <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
             src="/images/team3.jpg"
             alt="Team Member 3"

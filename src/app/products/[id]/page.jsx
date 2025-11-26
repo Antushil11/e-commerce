@@ -62,7 +62,7 @@ const ProductDetails = () => {
 
   return (
     <div className="min-h-screen p-6 flex justify-center items-start">
-      <div className="bg-[#F8F1E8] rounded-lg shadow-md w-full max-w-4xl overflow-hidden">
+      <div className="bg-gray-600 rounded-lg shadow-md w-full max-w-4xl overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
@@ -70,8 +70,8 @@ const ProductDetails = () => {
         />
         <div className="p-8">
           <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-          <p className="text-gray-700 mb-6">{product.description}</p>
-          <div className="flex flex-wrap gap-4 mb-6 text-gray-600">
+          <p className="texttext-white mb-6">{product.description}</p>
+          <div className="flex flex-wrap gap-4 mb-6 texttext-white">
             <p>
               <strong>Price:</strong> ${product.price}
             </p>
@@ -84,7 +84,7 @@ const ProductDetails = () => {
           </div>
           <button
             onClick={() => router.push("/products")}
-            className="bg-gray-500 text-white px-6 py-3 rounded hover:bg-gray-600"
+            className="bg-gray-500 text-white px-6 py-3 rounded hover:bg-blue-600"
           >
             Back
           </button>

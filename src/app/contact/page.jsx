@@ -24,7 +24,7 @@ const ContactPage = () => {
         Have questions or feedback? Fill out the form below and we will get back to you as soon as possible.
       </p>
 
-      <div className="w-full max-w-lg bg-[#F8F1E8] rounded-lg shadow-md p-8">
+      <div className="w-full max-w-lg bg-gray-700 rounded-lg shadow-md p-8">
         {submitted && (
           <p className="mb-4 text-green-600 font-semibold text-center">
             Thank you for contacting us!
