@@ -16,7 +16,7 @@ const AboutPage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
-            src="/images/team1.jpg"
+            src="https://i.ibb.co.com/9k7x67Z6/172920901-s-400-u-c63e19fac407f3bcd18dad59692a050b6832b77c-v-4.png"
             alt="Team Member 1"
             className="w-32 h-32 rounded-full mb-4 object-cover"
           />
@@ -26,7 +26,7 @@ const AboutPage = () => {
 
         <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
-            src="/images/team2.jpg"
+            src="https://i.ibb.co.com/VcWdjfcx/premium-photo-1664392134807-c9c7aca42671-q-80-w-878-auto-format-fit-crop-ixlib-rb-4-1.jpg"
             alt="Team Member 2"
             className="w-32 h-32 rounded-full mb-4 object-cover"
           />
@@ -36,7 +36,7 @@ const AboutPage = () => {
 
         <div className="bg-[#bd9e77] p-6 rounded-lg shadow-md flex flex-col items-center">
           <img
-            src="/images/team3.jpg"
+            src="https://i.ibb.co.com/svv4wGXC/816634-v9-bc.jpg"
             alt="Team Member 3"
             className="w-32 h-32 rounded-full mb-4 object-cover"
           />

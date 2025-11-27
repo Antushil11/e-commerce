@@ -72,22 +72,22 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact */}
+        
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li>Email: support@example.com</li>
             <li>Phone: +880 1234 567 890</li>
             <li>Address: Dhaka, Bangladesh</li>
-            <div className="flex gap-4">            
-              <FaFacebook />
-              <FaInstagramSquare />             
+            <div className="flex gap-4 ">            
+              <div className="text-4xl hover:text-blue-400"><FaFacebook /></div>
+              <div className="hover:text-red-400"><FaInstagramSquare size={40} />    </div>         
             </div>
           </ul>
         </div>
       </div>
 
-      {/* Bottom Bar */}
+     
       <div className="text-center text-gray-500 mt-10 border-t border-gray-700 pt-4 text-sm">
         © 2025 YourShop — All Rights Reserved.
       </div>

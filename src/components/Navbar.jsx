@@ -13,16 +13,16 @@ export default function Navbar() {
           <Image className="w-2/14" src={logo} alt="logo"></Image>
         </div>
         <div className="flex gap-4">
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-red-500">
             Home
           </Link>
-          <Link href="/products" className="hover:text-blue-500">
+          <Link href="/products" className="hover:text-red-500">
             Products
           </Link>
-          <Link href="/about" className="hover:text-blue-500">
+          <Link href="/about" className="hover:text-red-500">
             About
           </Link>
-          <Link href="/contact" className="hover:text-blue-500">
+          <Link href="/contact" className="hover:text-red-500">
             Contact
           </Link>
         </div>
@@ -30,11 +30,11 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/login"
-            className="block px-4 py-2 bg-blue-600 hover:text-black hover:bg-cyan-600  text-white rounded-md"
+            className="block px-4 py-2 bg-cyan-600 hover:text-black hover:bg-red-500  text-white rounded-md"
           >
             Login
           </Link>
-          <Link href="/register" className="block hover:text-black hover:bg-cyan-600 px-4 py-2 border rounded-md">
+          <Link href="/register" className="block hover:text-black hover:bg-red-500 px-4 py-2 border rounded-md">
             Register
           </Link>
         </div>
