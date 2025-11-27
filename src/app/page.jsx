@@ -1,5 +1,5 @@
 import Heropage from "@/Hero/page";
-import Homeproductpage from "@/Homeproduct/page";
+import Homeproductpage from "@/homeproduct/page";
 import Image from "next/image";
 import AboutPage from "./about/page";
 

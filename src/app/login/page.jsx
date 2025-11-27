@@ -1,4 +1,4 @@
-"use client"; // <-- Add this at the very top
+"use client";
 
 import { auth } from "@/Firebase/firebase";
 import Link from "next/link";
@@ -11,11 +11,11 @@ const Loginpage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Example function for form submission
+  
   const onSubmit = (e) => {
     e.preventDefault();
     console.log(email, password);
-    // handle login logic here
+    
   };
 
   return (
@@ -28,7 +28,7 @@ const Loginpage = () => {
               <label className="label">Email</label>
               <input
                 type="email"
-                onChange={(e) => setEmail(e.target.value)} // <-- use onChange
+                onChange={(e) => setEmail(e.target.value)} 
                 name="email"
                 value={email}
                 className="input rounded-full focus:border-0 focus:outline-gray-200"
@@ -38,7 +38,7 @@ const Loginpage = () => {
               <label className="label">Password</label>
               <input
                 type="password"
-                onChange={(e) => setPassword(e.target.value)} // <-- fixed typo
+                onChange={(e) => setPassword(e.target.value)} 
                 value={password}
                 name="password"
                 className="input rounded-full focus:border-0 focus:outline-gray-200"
@@ -56,7 +56,7 @@ const Loginpage = () => {
             </fieldset>
           </form>
 
-          <button  className="btn bg-white rounded-full text-black border-[#e5e5e5] mt-2">
+          <button className="btn bg-white rounded-full text-black border-[#e5e5e5] mt-2">
             <FaGoogle className="mr-2" />
             Login with Google
           </button>
