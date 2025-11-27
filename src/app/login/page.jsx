@@ -56,7 +56,7 @@ const Loginpage = () => {
             </fieldset>
           </form>
 
-          <button className="btn bg-white rounded-full text-black border-[#e5e5e5] mt-2">
+          <button  className="btn bg-white rounded-full text-black border-[#e5e5e5] mt-2">
             <FaGoogle className="mr-2" />
             Login with Google
           </button>

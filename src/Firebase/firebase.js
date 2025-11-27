@@ -6,17 +6,15 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB-oJ4sqCjC5e2KIxL_TGEgaiGLtLE5WKQ",
-  authDomain: "e-commerce-fc17e.firebaseapp.com",
-  projectId: "e-commerce-fc17e",
-  storageBucket: "e-commerce-fc17e.firebasestorage.app",
-  messagingSenderId: "149979501736",
-  appId: "1:149979501736:web:dde8ed597897dfdbcf9e9d"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-
 // Initialize Firebase Authentication and get a reference to the service
-export const auth = getAuth(app);
+export const auth = getAuth(app)
