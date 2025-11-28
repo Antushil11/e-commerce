@@ -1,7 +1,7 @@
-import Heropage from "@/Hero/page";
-import Homeproductpage from "@/homeproduct/page";
-import Image from "next/image";
-import AboutPage from "./about/page";
+import Heropage from "../Hero/page";
+import Homeproductpage from "../Homeproduct/page";
+
+
 
 export default function Home() {
   return (
